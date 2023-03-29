@@ -39,6 +39,27 @@ ul.nav > li {
     
      }
 
+    .row-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #1D0200;
+    }
+       
+    #contact {
+        grid-area: nav;
+    }
+    #form {
+        grid-area: article;
+    }
+    #logo {
+        grid-area: ads; 
+        margin-top: 50px;
+    }
+
+
 
 
 
