@@ -11,14 +11,48 @@ body {
     color: white;
     background-color: #dabc94;
 }
+img {
+    padding: 10px;
+    align-self: center;
+}
 h1 {
     background-color: #1D0200;
     padding: 5px;
     margin: 10px;
     margin-top: 10px;
+    text-align: center;
+    color:#dabc94
 }
-h2, p {
+h2 {
     padding: 15px;
+}
+
+h2 {
+    color: #1D0200;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    background-color: #dabc94;
+}
+h3 {
+    color: #1D0200;
+    padding-left: 20px;
+   
+}
+h4 {
+    color: #0c1222;
+    font-weight: 500;
+    padding-left: 10px;
+    
+}
+p {
+    color: #0c1222;
+    padding-left: 10px;
+}
+.intro {
+    color: wheat;
+    font-weight: 700;
+    padding: 10px;
 }
 .cv {
     border-radius:50%;
@@ -46,20 +80,55 @@ ul.nav > li {
         align-items: center;
         flex-wrap: wrap;
         background-color: #1D0200;
+        
+   
     }
+    .infoflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap; 
+        border: solid 1px #1D0200;
+        padding: 10px;
+    }
+    .ulexp {
+        max-width: 400px;
+    }
+    .infoflex2 {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: left;
+        flex-wrap: wrap; 
+       flex-flow: column;
+       padding-right:5px;
+       margin: 30px;
+       border: solid 1px #1D0200;
        
-    #contact {
-        grid-area: nav;
+      
+    
     }
-    #form {
-        grid-area: article;
-    }
-    #logo {
-        grid-area: ads; 
-        margin-top: 50px;
-    }
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
 
+} .contactme {
 
+   padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 50px;
+    padding: 30px;
+}
+.style {
+    background-color: #0c1222;
+}
+.intouch {
+    color: #dabc94
+}
 
 
 
@@ -78,4 +147,32 @@ div {
     padding: 5px;
     
 }
+.contactme {
+    margin-left: 50px;
 }
+.infoflex2 {
+    margin: 10px;
+}
+ p {font-size: 13px;}
+ li {font-size: 13px;}
+ .intro {font-size: 13px;}
+ h3 {font-size: 15px;}
+ h4 {font-size: 14;}
+}
+
+@media only screen and (min-width: 769px) {
+    p {font-size: 14px;}
+ li {font-size: 14px;}
+ .intro {font-size: 14px;}
+ h3 {font-size: 16px;}
+ h4 {font-size: 15;}
+}
+@media only screen and (min-width: 985px) and (max-width: 1071px) {
+    .infoflex {
+        padding: 0px;
+
+    }
+    h3 {padding-left: 5px;}
+    .ulexp {max-width: 300px;}
+}
+ 

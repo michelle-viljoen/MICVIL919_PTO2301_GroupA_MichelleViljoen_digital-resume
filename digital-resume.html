@@ -8,17 +8,18 @@
     <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
 </head>
 <body>
-   <div id="hero"><h1>Michelle Viljoen</h1>
+   <div id="hero"><div class="grid"><h1>Michelle Viljoen</h1>
+    <a href="#contact"><button class="contactme">Contact me</button></a> </div>
    <div class="row-flexbox">
     <img class="cv" src="./images/cv.jpg" alt="cv" width="180px" height="200px">
     </div>
-    <div><p>Learning to code has always been a dream of mine. While my work experience is very limitied in this field, 
+    <div><div class="intro">Learning to code has always been a dream of mine. While my work experience is very limitied in this field, 
     I aim to take my skills to the next level and enter the working world of Software Developers by the end of 2023. 
     My hard working attitude, patience and determination will 
     get me there soon. I believe that persistency will get you 
     somewhere, but consistency will keep you there- this is how 
     I approach building my coding skills. I learn quickly and apply myself in everything I do. I am patient and a team player but also
-work well on my own. I am adaptive, responsible and take initiative and I'd love to join your team!</p></div>
+work well on my own. I am adaptive, responsible and take initiative and I'd love to join your team!</div></div>
     <div></div></div> 
 </div>
 <ul class="nav";> 
@@ -26,7 +27,87 @@ work well on my own. I am adaptive, responsible and take initiative and I'd love
     <li><a href="#experience">Experience</a></li>
     <li><a href="#skills">Skills</a></li>
    </ul>
+  
    <h2 id="education">Education</h2>
+   <div class="infoflex2">
+   <h3>CodeSpace Academy</h3>
+   <h4>12 month course, 2023<h4>
+   <p>Software Development</p>
+<img src="images/cs-logo.png" alt="cs-logo" width="160px" height="80px" ></div>
+   <div class="infoflex2">
+   <h3>The TEFL Academy</h3>
+   <h4>6 month course, 2021</h4>
+   <p>Level 5 TEFL Certificate</p>
+   <h4>1 month course, 2021</h4>
+   <p>Teaching English online 1:1</p><img src="images/tefl-logo.png" alt="tefl-logo" width="160px" height="100px"></div>
+   <div class="infoflex2">
+   <h3>College of Naturopathic Medicine</h3>
+   <h4>3 year international diploma, 2016- 2020</h4>
+   <p>Natural Health</p>
+<img src="images/CNMlogo.jpg" alt="cnm-logo" width="150px" height="130px"></div>
+   <div class="infoflex2">
+   <h3>American School of Natural Health</h3>
+   <h4>3 month course, 2017</h4>
+   <p>Herbal Medicine</p>
+<img src="images/asnh-logo.png" alt="asnh-logo" width="180px" height="100px"></div>
+   <div class="infoflex2">
+   <h3>Udemy</h3>
+   <h4>Certificate courses</h4>
+   <p>Management Skills- Team Leadership</p>
+   <p>Health Coaching- Holistic Health</p>
+<img src="images/udemy-logo.png" alt="udemy-logo" width="140px" height="120px"></div>
+
+<div class="style"><div class="infoflex2">
+<h2 id="skills">Skills</h2>
+   <ul>
+    <li>Leadership</li>
+    <li>Management</li>
+    <li>Communication</li>
+    <li>Prioritising</li>
+   </ul></div><div class="infoflex2">
+<h2>Software Skills</h2>
+<ul>
+    <li>Scratch</li>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul></div>
+<div class="infoflex2">
+    <h2>Design Skills</h2>
+    <ul>
+        <li>Canva Pro</li>
+        <li>Figma</li>
+    </ul>
+</div></div>
+
+   <h2 id="experience">Experience</h2><div class="infoflex">
+  
+   <h3>Assistant Manager at The Coot Club</h3>
+   <p>December 2022 to present</p>
+    <ul class="ulexp">
+    <li>Guest relations from check ins to activity guidance.</li>
+    <li>Restaurant management and coordinating front of house and kitchen relations.</li>
+    <li>Oversee smooth running of all departments including housekeeping, restaurant and maintenance teams.</li>
+    <li>Use of Lightspeed and Benson Software systems.</li>
+</ul></div>
+<div class="infoflex">
+    <h3>Retail Store Assisant at Frozen For You</h3>
+    <p>November 2020 to November 2022</p>
+   <ul class="ulexp">
+    <li>Customer relations, product knowledge, provide exceptional service.</li>
+    <li>Open and close store, stock management inclulding ordering and receiving goods.</li>
+    <li>Use of the Vend system.</li>
+   </ul></div>
+<div class="infoflex">
+   <h3>Retail Store Manager at Founder Foods</h3>
+   <p>June 2019 to October 2020</p>
+   <ul class="ulexp">
+    <li>Oversee the daily runnings of natural foods store.</li>
+    <li>Staff training and development.</li>
+    <li>Stock control, ordering and delivery route management</li>
+    <li>Use of the Erply system.</li>
+   </ul></div>
+   
+   
    <div class="row-flex">
 <nav id="contact">
     <div class="contact"><h2>Contact Details</h2>
@@ -39,7 +120,7 @@ work well on my own. I am adaptive, responsible and take initiative and I'd love
         </ul></div></nav>
 <article id="form">
     <form action="https://formsubmit.co/el/confirm/fb42d119a80b56083f411d16de14ad95" method="POST">
-        <h4>Let's get in touch and see how we can work together!</h4>
+        <h4 class="intouch">Let's get in touch and see how we can work together!</h4>
                <or> 
                 <ul><li><label for="email">Email:</label><br>
         <input type="email" id="email" name="user_email" required></li>
@@ -50,7 +131,7 @@ work well on my own. I am adaptive, responsible and take initiative and I'd love
             <option value="knowmore">I'm willing to guide you to where I need you- will you collaborate?</option>
         </select></li>
         <li><label for="tellmore"><label class="tellmore">Tell me more about yourself and what you have in mind for us:</label>
-        <br><textarea name="moreinfo" cols="60" rows="12"></textarea></li>
+        <br><textarea name="moreinfo" cols="55" rows="12"></textarea></li>
         <input type="submit" name="submit" value="Submit contact request">
         </ul>
         </or>
