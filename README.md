@@ -10,3 +10,6 @@ This is a Capstone Project for my software developement studies with CodeSpace. 
 I enjoyed this project and would have loved a little bit more time to perfect some areas but I am happy with my work nonetheless and am proud of this achievement.
 
 I built this website using html and css. I wrote the code on Visual Studio Code and uploaded it to GitHub as the sharing platform with my coach.
+
+Link to Figma file:
+https://www.figma.com/file/2J1CWysqvUqMJqjrk4piYL/ITW_Figma-Resume-Templates_michelle-viljoen?t=O1qLDgcF8aZVku4H-0
